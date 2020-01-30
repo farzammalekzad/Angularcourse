@@ -16,6 +16,9 @@ import {MatFormFieldModule} from '@angular/material';
 import {MatInputModule} from '@angular/material/input';
 import {MatCheckboxModule} from '@angular/material/checkbox';
 import {FormsModule} from '@angular/forms';
+import {ReactiveFormsModule} from '@angular/forms';
+import {MatSelectModule} from '@angular/material';
+import {MatSlideToggleModule} from '@angular/material';
 
 import { DishdetailComponent } from './dishdetail/dishdetail.component';
 
@@ -56,7 +59,10 @@ import { LoginComponent } from './login/login.component';
     MatFormFieldModule,
     MatInputModule,
     MatCheckboxModule,
-    FormsModule
+    FormsModule,
+    ReactiveFormsModule,
+    MatSelectModule,
+    MatSlideToggleModule
   ],
   providers: [DishService, LeaderService],
   bootstrap: [AppComponent],
